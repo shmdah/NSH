@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="data:," />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ngara Street Hustle — a 3D street-food business sim set in Nairobi."
+    />
+    <title>Ngara Street Hustle</title>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game-canvas" aria-label="Ngara Street Hustle 3D game"></canvas>
+
+      <!-- HUD anchors. Panels are mounted into these by main.js. -->
+      <div id="ui-root">
+        <div id="ui-top-left" class="ui-anchor"></div>
+        <div id="ui-top-right" class="ui-anchor"></div>
+        <div id="ui-bottom-left" class="ui-anchor"></div>
+        <div id="ui-top-center" class="ui-anchor"></div>
+        <div id="ui-right-middle" class="ui-anchor"></div>
+        <div id="ui-bottom-center" class="ui-anchor"></div>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="fatal-error">
+        <div class="fatal-error__card">
+          <h1>JavaScript is required</h1>
+          <p>Enable JavaScript to play Ngara Street Hustle.</p>
+        </div>
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
